@@ -19,8 +19,9 @@ public class MarksActivity extends AppCompatActivity implements MarksContract.vi
 
     }
 
+
     @Override
-    public void showNewMarkDialog() {
+    public void showNewMarkDialog(View view) {
         View dialogView = View.inflate(this, R.layout.marks_detail_layout, null);
 
 
