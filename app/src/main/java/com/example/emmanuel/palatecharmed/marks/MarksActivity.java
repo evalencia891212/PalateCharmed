@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.emmanuel.palatecharmed.R;
+import com.example.emmanuel.palatecharmed.marks.model.Marks;
+
+import java.util.ArrayList;
 
 public class MarksActivity extends AppCompatActivity implements MarksContract.view ,View.OnClickListener, DialogInterface.OnClickListener {
 
@@ -34,6 +37,16 @@ public class MarksActivity extends AppCompatActivity implements MarksContract.vi
                 .create();
 
         dialog.show();
+    }
+
+    @Override
+    public void showMarkList(ArrayList<Marks> marksArrayList) {
+
+    }
+
+    @Override
+    public void newMark(Marks mark) {
+
     }
 
     @Override
